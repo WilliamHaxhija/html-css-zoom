@@ -41,6 +41,7 @@ header > div {
 
 main {
     height: calc(100vh - 124px);
+    overflow: auto;
 }
 
 main > div {
