@@ -10,4 +10,28 @@
 
 body {
     background-color: black;
+    color: white;
 }
+
+/*------------------
+       HEADER
+------------------*/
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    min-height: 30px;
+    padding: 8px 8px;
+}
+
+header > div {
+    background-color: #4a4a4a;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.fa-grip-vertical{
+    margin-right: 5px;
+}
+
