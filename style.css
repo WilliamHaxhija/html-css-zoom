@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: flex-end;
     gap: 10px;
-    min-height: 30px;
+    height: 44px;
     padding: 8px 8px;
 }
 
@@ -35,3 +35,56 @@ header > div {
     margin-right: 5px;
 }
 
+/*------------------
+       MAIN
+------------------*/
+
+main {
+    height: calc(100% - 124px)vh;
+}
+/*------------------
+       FOOTER
+------------------*/
+
+footer {
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+}
+
+footer > div {
+    display: flex;
+}
+
+footer > div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3px 7px;
+}
+
+
+footer span {
+    display: block;
+    font-size: 13px;
+    margin-left: 3px;
+}
+
+footer i {
+    font-size: 22px;
+}
+
+.circonflesso {
+    line-height: 44px;
+}
+
+button {
+    background-color: #4a4a4a;
+    min-height: 80px;
+    border: none;
+    padding: 0 15px;
+    color: red;
+}
