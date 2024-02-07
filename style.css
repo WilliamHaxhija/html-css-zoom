@@ -40,7 +40,7 @@ header > div {
 ------------------*/
 
 main {
-    height: calc(100% - 124px)vh;
+    height: calc(100vh - 124px);
 }
 /*------------------
        FOOTER
@@ -56,6 +56,16 @@ footer {
 
 footer > div {
     display: flex;
+}
+
+footer > div:first-child {
+    min-width: 20%;
+}
+
+footer > div:last-child {
+    min-width: 20%;
+    display: flex;
+    justify-content: end;
 }
 
 footer > div div {
