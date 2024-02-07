@@ -55,7 +55,7 @@ main > div > div {
 }
 
 main > div > div > div {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
     left: 0;
     bottom: 10px;
@@ -101,6 +101,10 @@ footer span {
     display: block;
     font-size: 13px;
     margin-left: 3px;
+}
+
+footer > div > div:nth-child(4) > div {
+    color: #4bc800;
 }
 
 footer i {
